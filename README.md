@@ -39,17 +39,4 @@ review app), just scaled down to a laptop and a webcam.
   in between).
 - `JPEG_QUALITY`: lower it for a smoother stream over weaker WiFi.
 
-## Publishing to GitHub
 
-```
-cd obc-edge-stream-demo
-git init
-git add .
-git commit -m "Edge-to-network defect detection streaming demo"
-git branch -M main
-git remote add origin https://github.com/Lakshan-D/obc-edge-stream-demo.git
-git push -u origin main
-```
-
-(Or push it as a branch on `bridge-defect-detector` instead of a new repo,
-if you want to visibly connect it to your existing detection model work.)
